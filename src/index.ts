@@ -16,7 +16,7 @@ const WEBSOCKET_URL = "wss://dcl-browser.zeroxwork.com";// you can use external 
     position:Vector3.create(3, 2, 6),
     rotation:Quaternion.fromEulerDegrees(0,270,0),
     scale:Vector3.create(3,768/1024 * 3,1),
-    homeURL:"https://www.lazada.com.my/tag/688中国风",
+    homeURL:"https://youtube.com",
     parent:undefined //it can have a parent Entity
   });
 
