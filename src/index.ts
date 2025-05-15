@@ -9,6 +9,8 @@ import { Color4 } from '@dcl/sdk/math'
 import { Transform, MeshRenderer, pointerEventsSystem, InputAction, UiCanvasInformation, UiText } from '@dcl/sdk/ecs'
 import * as ui from "dcl-ui-toolkit";
 import { PromptButtonStyles } from 'dcl-ui-toolkit/dist/ui-entities/prompts/Prompt/components/Button';
+import { EntityPropTypes } from '@dcl/sdk/react-ecs';
+import { uiMenu as gameMain } from './ui'
 
 const SERVER_BASE_URL = "https://dcl-browser.zeroxwork.com";// you can use external server like https://dcl-browser.zeroxwork.com
 const WEBSOCKET_URL = "wss://dcl-browser.zeroxwork.com";// you can use external server like wss://dcl-browser.zeroxwork.com
@@ -26,6 +28,7 @@ const WEBSOCKET_URL = "wss://dcl-browser.zeroxwork.com";// you can use external 
 
 
 export function main() {
+
 
   const cube = engine.getEntityOrNullByName('gravestone.glb')
   if (!cube) {
@@ -65,14 +68,14 @@ export function main() {
       width: 100,
       height: 200,
       xPosition: 0,
-      yPosition: 100,
+      yPosition: 180,
     }
   )
 
 const label = prompt.addText({
-  value: '尼玛',
-  xPosition: -170,
-  yPosition: 0,
+  value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  xPosition: -200,
+  yPosition: 80,
   positionAbsolute: true,
   size: 18,
 }
@@ -82,7 +85,7 @@ const label = prompt.addText({
     text: 'OK',
     xPosition: -10,
     style: PromptButtonStyles.E,
-    yPosition: -160, // X, Y offset
+    yPosition: -200, // X, Y offset
     onMouseDown: () => {
       prompt.hide()
     },

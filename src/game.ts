@@ -1,5 +1,8 @@
 import { Entity, InputAction, Material, MeshCollider, MeshRenderer, pointerEventsSystem, Transform, engine } from "@dcl/sdk/ecs";
+
+import { UiEntity } from "@dcl/sdk/react-ecs";
 import { Color4, Vector3 } from "@dcl/sdk/math";
+
 
 
 export function startGame() {
@@ -12,7 +15,6 @@ export function startGame() {
     MeshRenderer.setBox(box)
   }
   
-
 
 // Create a clickable object (e.g., a cube)
 const menuTrigger = engine.addEntity();
