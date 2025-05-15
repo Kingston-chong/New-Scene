@@ -95,7 +95,6 @@ export enum EntityNames {
   beautiful_apple_glb_2 = "beautiful_apple.glb_2",
   beautiful_apple_glb_3 = "beautiful_apple.glb_3",
   beautiful_apple_glb_4 = "beautiful_apple.glb_4",
-  cat_glb = "cat.glb",
   generate_3d_model_for_0509084836_texture_glb = "generate_3d_model_for_0509084836_texture.glb",
   gravestone_glb = "gravestone.glb",
   maneki_neko_glb = "maneki_neko.glb",

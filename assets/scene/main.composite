@@ -1644,27 +1644,6 @@
             "parent": 0
           }
         },
-        "586": {
-          "json": {
-            "position": {
-              "x": 3.75,
-              "y": 0,
-              "z": 13.869999885559082
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "scale": {
-              "x": 0.029999999329447746,
-              "y": 0.029999999329447746,
-              "z": 0.029999999329447746
-            },
-            "parent": 0
-          }
-        },
         "587": {
           "json": {
             "position": {
@@ -2157,14 +2136,14 @@
             },
             "rotation": {
               "x": 0,
-              "y": 0.7071067690849304,
+              "y": -0.7071067690849304,
               "z": 0,
-              "w": -0.7071067690849304
+              "w": 0.7071067690849304
             },
             "scale": {
-              "x": 1,
+              "x": 0.9999999403953552,
               "y": 1,
-              "z": 1
+              "z": 0.9999999403953552
             },
             "parent": 0
           }
@@ -2745,20 +2724,6 @@
         "585": {
           "json": {
             "states": []
-          }
-        },
-        "586": {
-          "json": {
-            "states": [
-              {
-                "clip": "Take 001",
-                "playing": false,
-                "weight": 1,
-                "speed": 1,
-                "loop": true,
-                "shouldReset": false
-              }
-            ]
           }
         },
         "587": {
@@ -3400,13 +3365,6 @@
         "585": {
           "json": {
             "src": "assets/asset-packs/rabbit-ear_grass/Grass_04/Grass04.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
-          }
-        },
-        "586": {
-          "json": {
-            "src": "assets/scene/Models/cat/cat.glb",
             "visibleMeshesCollisionMask": 1,
             "invisibleMeshesCollisionMask": 2
           }
@@ -4420,11 +4378,6 @@
             "value": "Rabbit-Ear Grass_2_3"
           }
         },
-        "586": {
-          "json": {
-            "value": "cat.glb"
-          }
-        },
         "587": {
           "json": {
             "value": "Golden Plate"
@@ -4891,26 +4844,6 @@
               "b": 1,
               "a": 1
             }
-          }
-        }
-      }
-    },
-    {
-      "name": "inspector::Selection",
-      "jsonSchema": {
-        "type": "object",
-        "properties": {
-          "gizmo": {
-            "type": "integer",
-            "serializationType": "int32"
-          }
-        },
-        "serializationType": "map"
-      },
-      "data": {
-        "610": {
-          "json": {
-            "gizmo": 3
           }
         }
       }
@@ -5404,8 +5337,7 @@
                   615,
                   512,
                   516,
-                  596,
-                  586
+                  596
                 ]
               },
               {
@@ -5833,10 +5765,6 @@
               },
               {
                 "entity": 596,
-                "children": []
-              },
-              {
-                "entity": 586,
                 "children": []
               }
             ]
@@ -6782,9 +6710,6 @@
           "json": {}
         },
         "585": {
-          "json": {}
-        },
-        "586": {
           "json": {}
         },
         "587": {
