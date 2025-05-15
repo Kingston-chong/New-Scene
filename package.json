@@ -29,6 +29,7 @@
     "@dcl/ui-scene-utils"
   ],
   "dependencies": {
+    "@dcl/asset-packs": "^2.4.0",
     "@zeroxwork/decentraland-virtual-browser-client": "^1.0.8",
     "decentraland-ui2": "^0.19.0"
   },
