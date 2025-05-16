@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "SDK7 Template scene",
   "scripts": {
-    "start": "CI=true dcl start -p ${PORT:=8000}",
+    "start": "sdk-commands start",
     "deploy": "sdk-commands deploy",
     "build": "sdk-commands build",
     "upgrade-sdk": "npm install --save-dev @dcl/sdk@latest",
