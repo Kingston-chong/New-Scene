@@ -64,7 +64,7 @@ export function main() {
 
   const image = prompt.addIcon(
     {
-      image : 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT8SybBmGwcpTOc3PJOYQTFeoZRZC6-62bS6RpF2FAOgUqgGFSn',
+      image : 'https://img.freepik.com/premium-vector/user-profile-icon-flat-style-member-avatar-vector-illustration-isolated-background-human-permission-sign-business-concept_157943-15752.jpg',
       width: 100,
       height: 200,
       xPosition: 0,
